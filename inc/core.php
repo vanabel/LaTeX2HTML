@@ -404,7 +404,9 @@ $tableofcontent = $tableofcontent.'<span>&#x00A0;&#x00A0;&#x00A0;'.$sec.'.'.$sub
             $fig_id .= "<span id='$id'></span>";
           }
           $fig_name = $thmenvarr['fig'];
-          $fig_url = wp_upload_dir()['url'] . '/' . $name;
+	  $posturl = get_permalink( $post->ID );
+	  $time = preg_replace('/(.*?)\/(\d+\/\d+)\/(.*)/ims', '$2', $posturl); 
+          $fig_url = wp_upload_dir($time)['url'] . '/' . $name;
           $fig_content .="<center><a href='$fig_url'><img class='latex_fig' src='". $fig_url . "' alt='" . $name . "' /></a></center>";
           if( $cap !=null ){
             $fig_content = "<figure>" . $fig_content . "<figcaption class='latex_fig_caption'>" . $fig_name . $num . ". " . $cap . "</figcaption></figure>";
