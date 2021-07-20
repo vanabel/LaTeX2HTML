@@ -1,0 +1,182 @@
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#sidebar, #footer, #header, #gplusone, #comments, #ckepop, #respond, #search,
+#menus, #nav-below, #comments-div, #rss_border, #sidebar-border, .post-info-top,
+.close-sidebar, .post-info-bottom, .add-info, .post_info_top, .post_info_bootom,
+.post-nav, .wp_codebox_msgheader, .wp_codebox_hide, .related_post,
+.related_post_title, .navigation, .commentlist, .trackbacks-pingbacks,
+.yarpp-related, .copyright {
+  display: none;
+}
+
+html, body {
+  width: 210mm;
+  height: 297mm;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+}
+
+#main, .postcontent {
+  margin: 0;
+  padding-right: 1in;
+  width: 210mm;
+  min-height: 297mm;
+  font-size:1.25em;
+}
+
+#content, .postcontent {
+  text-align: left;
+  font-size: 14px;
+  line-height: 135%;
+  width: auto;
+  margin: 0;
+  float: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
+
+h3 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+blockquote, table, pre {
+  page-break-inside: avoid;
+}
+
+ul, ol, dl {
+  page-break-before: avoid;
+}
+
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.right {
+  padding: 4px;
+  margin: 0 0 2px 7px;
+  display: inline;
+}
+
+img.left {
+  padding: 4px;
+  margin: 0 7px 2px 0;
+  display: inline;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+img {
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+a:link, a:visited {
+  color: #000000
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+.post_title_h2 {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+h2.title {
+  text-align: center;
+}
+
+.entry {
+  line-height: 30px;
+}
+
+.latex_thm, .latex_lem, .latex_cor, .latex_def, .latex_prop, .latex_rem,
+.latex_examp, .latex_prob {
+  display: block;
+  text-align: left;
+  margin: 20px 5px 20px 5px;
+  padding: 10px 5px 25px 15px;
+  background: #eee;
+  font-style: italic;
+}
+
+
+/*lists*/
+
+.post_content ul, .post_content ol {
+  margin: 0 0 1em 2em
+}
+
+.post_content ul {
+  list-style-type: disc
+}
+
+.post_content ul ul {
+  list-style-type: circle
+}
+
+.post_content ul ul ul {
+  list-style-type: square
+}
+
+.post_content ol {
+  list-style-type: decimal
+}
+
+.post_content ol ol {
+  list-style-type: lower-alpha
+}
+
+.post_content ol ol ol {
+  list-style-type: lower-roman
+}

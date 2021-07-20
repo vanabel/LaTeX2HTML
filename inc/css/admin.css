@@ -1,0 +1,96 @@
+div.l2h_warp{
+  background-color: #ffc;
+}
+.l2h_wrap p{
+  font-size: 1.2em;
+  margin: 2em auto;
+}
+.l2h_wrap>h2.nav-tab-wrapper{
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  padding-top: 9px;
+  padding-bottom: 0;
+  line-height: inherit;
+}
+
+.bibtex_title{
+  font-weight:bold;
+  color: #004b33;
+  }
+a.bibtex_title{
+  text-decoration: none;
+}
+
+#wrd_template.toggle-box, #wrd_compatibility.toggle-box, #wrd_contribute.toggle-box, #wrd_Localization.toggle-box {
+	display: none;
+}
+
+.toggle-box + label {
+	cursor: pointer;
+	display: block;
+	font-weight: bold;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+
+.toggle-box + label + div {
+	display: none;
+	margin-bottom: 10px;
+}
+
+.toggle-box:checked + label + div {
+	display: block;
+}
+
+.toggle-box + label:before {
+	background-color: #002C38;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	content: "+";
+	display: block;
+	float: left;
+	font-weight: bold;
+  font-size: 20px;
+	height: 20px;
+	line-height: 18px;
+	margin-right: 5px;
+	text-align: center;
+	width: 20px;
+}
+
+.toggle-box:checked + label:before {
+	content: "\2212";
+}
+.pre-collapse>pre{
+ overflow-y: hidden;
+ height: auto;
+ font-size: 1.2em;
+ padding: .5em 2em;
+ background: #002C38;
+ color: white;
+ font-family: Consolas, monospace;
+ margin: 0;
+}
+.l2h_wrap p>a, #donation{
+  color: coral;
+  text-decoration: none;
+  font-weight: bold;
+}
+#paymds{
+  display: none;
+}
+.paymds{
+  margin: 0 auto;
+  width: 200px;
+}
+.dimg{
+  background: #eee;
+  width: 200px;
+  height: 200px;
+}
+#imgpaypal>a{
+  text-decoration: none;
+}
+

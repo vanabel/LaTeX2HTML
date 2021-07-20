@@ -1,0 +1,47 @@
+/* CSSTidy 1.2: Thu Mar 22 10:45:10 2018 */
+.entry-content {
+	margin:0 auto;
+	max-width:760px;
+	margin-left:2em;
+}
+.tableofcontent>span{
+	display:block;
+}
+a:visited {
+    color: #1fa0ae;
+}
+a {
+    color: #08c;
+    text-decoration: none;
+}
+code {
+    padding: 2px 4px;
+    color: #d14;
+    white-space: nowrap;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+	tab-size:2;
+	-moz-tab-size:2
+}
+pre>code {
+	white-space: pre-wrap;
+    display: block;
+	overflow-y: hidden;
+    height: auto;
+    font-size: 1.2em;
+    padding: .5em 2em;
+    background: #002C38;
+    color: white;
+    font-family: Consolas, monospace;
+    margin: 0;
+	text-align:justify;
+}
+blockquote {
+    padding-left: 1.5em;
+    border-left: 5px solid rgba(0,0,0,.075);
+}
+blockquote, dl, ol, p, pre, ul {
+    margin: 1.2em 0;
+}
+
+	

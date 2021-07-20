@@ -1,0 +1,453 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: LaTeX2HTML\n"
+"POT-Creation-Date: 2018-03-25 12:58+0800\n"
+"PO-Revision-Date: 2018-03-25 12:58+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: latex2html.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/bibtex.php:152
+msgctxt "timezone date format"
+msgid "Y/m/d H:i:s"
+msgstr ""
+
+#: inc/core.php:79 inc/core.php:291
+msgid "Section"
+msgstr ""
+
+#: inc/core.php:80 inc/core.php:292
+msgid "Figure"
+msgstr ""
+
+#: inc/core.php:81 inc/core.php:293
+msgid "Theorem"
+msgstr ""
+
+#: inc/core.php:82 inc/core.php:294
+msgid "Lemma"
+msgstr ""
+
+#: inc/core.php:83 inc/core.php:295
+msgid "Corollary"
+msgstr ""
+
+#: inc/core.php:84 inc/core.php:296
+msgid "Definition"
+msgstr ""
+
+#: inc/core.php:85 inc/core.php:297
+msgid "Proposition"
+msgstr ""
+
+#: inc/core.php:86 inc/core.php:87 inc/core.php:298 inc/core.php:299
+msgid "Remark"
+msgstr ""
+
+#: inc/core.php:88 inc/core.php:300
+msgid "Claim"
+msgstr ""
+
+#: inc/core.php:89 inc/core.php:301
+msgid "Proof"
+msgstr ""
+
+#: inc/core.php:90 inc/core.php:302
+msgid "Problem"
+msgstr ""
+
+#: inc/core.php:91 inc/core.php:303
+msgid "Example"
+msgstr ""
+
+#: inc/core.php:92 inc/core.php:304
+msgid "Answer"
+msgstr ""
+
+#: inc/core.php:93 inc/core.php:305
+msgid "Exercise"
+msgstr ""
+
+#: inc/core.php:94 inc/core.php:306
+msgid "Abstract"
+msgstr ""
+
+#: inc/core.php:95 inc/core.php:307
+msgid "Step"
+msgstr ""
+
+#: inc/core.php:221
+msgid "Contents"
+msgstr ""
+
+#: inc/core.php:535
+msgid "References"
+msgstr ""
+
+#: inc/db.inc.php:131
+msgid "The database upgrade successfully!"
+msgstr ""
+
+#: inc/db.inc.php:133
+msgid ""
+"This update will lose your bibtex data, please backup the `wp_l2hbibtex` "
+"table at first!"
+msgstr ""
+
+#: inc/settings.php:95
+msgid "You do not have the sufficient permissions to access this page."
+msgstr ""
+
+#: inc/settings.php:137
+msgid "Upgrade notes"
+msgstr ""
+
+#: inc/settings.php:143
+msgid "Version information"
+msgstr ""
+
+#: inc/settings.php:150
+msgid "Current version"
+msgstr ""
+
+#: inc/settings.php:163
+msgid "Newest version"
+msgstr ""
+
+#: inc/settings.php:176
+msgid "Current DB version"
+msgstr ""
+
+#: inc/settings.php:189
+msgid "Newest DB version"
+msgstr ""
+
+#: inc/settings.php:202
+msgid "Last Update Date"
+msgstr ""
+
+#: inc/settings.php:223
+msgid "General settings"
+msgstr ""
+
+#: inc/settings.php:229
+msgid "English as default language"
+msgstr ""
+
+#: inc/settings.php:237
+msgid "Enable to ignore the translations"
+msgstr ""
+
+#: inc/settings.php:242
+msgid "Speed up on homepage"
+msgstr ""
+
+#: inc/settings.php:250
+msgid "Enable to load MathJax only on pages of single type"
+msgstr ""
+
+#: inc/settings.php:256
+msgid "MathJax settings"
+msgstr ""
+
+#: inc/settings.php:263 inc/settings.php:276
+#, php-format
+msgid "MathJax %s"
+msgstr ""
+
+#: inc/settings.php:291
+msgid "LaTeX settings"
+msgstr ""
+
+#: inc/settings.php:297
+msgid "LaTeX preamble"
+msgstr ""
+
+#: inc/settings.php:310
+msgid "LaTeX styles"
+msgstr ""
+
+#: inc/settings.php:326
+msgid "BibTeX data"
+msgstr ""
+
+#: inc/settings.php:332
+msgid "BibTeX items"
+msgstr ""
+
+#: inc/settings.php:346
+msgid "BibTeX Original Data"
+msgstr ""
+
+#: inc/settings.php:348 inc/settings.php:363
+msgid "Preview"
+msgstr ""
+
+#: inc/settings.php:357
+msgid "BibTeX Backups"
+msgstr ""
+
+#: inc/settings.php:360
+msgid "Note that the backups will be deleted when deactive or uninstall"
+msgstr ""
+
+#: inc/settings.php:375
+msgid "Support &amp Credits"
+msgstr ""
+
+#: inc/settings.php:383
+msgid "The User's Manual"
+msgstr ""
+
+#: inc/settings.php:441
+msgid "Congratulations! You are on the newest version!"
+msgstr ""
+
+#: inc/settings.php:451
+msgid ""
+"There are some error happens, please have a fresh new install. Hint: I can't "
+"find the database version information."
+msgstr ""
+
+#: inc/settings.php:465
+#, php-format
+msgid "The standard BibTeX data can be obtained from %s or google scholar."
+msgstr ""
+
+#: inc/settings.php:480
+#, php-format
+msgid "The core code of BibTeX is based on the %s with some improvement. "
+msgstr ""
+
+#: inc/settings.php:481
+#, php-format
+msgid "The processing of mathematical formula is completely depending on %s. "
+msgstr ""
+
+#: inc/settings.php:482
+#, php-format
+msgid "The click to select jQuery is due to %s"
+msgstr ""
+
+#: inc/settings.php:483
+msgid "FAQ"
+msgstr ""
+
+#: inc/settings.php:519
+msgid "A template for LaTeX"
+msgstr ""
+
+#: inc/settings.php:521
+msgid "Compatibility issue"
+msgstr ""
+
+#: inc/settings.php:521
+#, php-format
+msgid ""
+"If try to pose <code>LaTeX/TeX</code> raw code in your post, my plugin will "
+"broken the syntax highlighter %s, but you can use %s instead."
+msgstr ""
+
+#: inc/settings.php:523
+msgid "How to Localize"
+msgstr ""
+
+#: inc/settings.php:523
+#, php-format
+msgid ""
+"It is quite often you want to use latex2html with your native language, here "
+"is a guide how to do it (and why).  %s First set the language of Wordpress "
+"to be your native because latex2html use I18n to translate the language.  %s "
+"and then to %s to translate the items of plugin into your language ( the "
+"item under <i>development</i> will be enough) %s After you submitting the "
+"translation, you need to be approved by an editor in that language. Of "
+"course, you can apply to become an editor at %s If 95%% of the translation "
+"is complete, a language file will be generated and you can download and use "
+"it by checking translation update at the %s The above method needs to almost "
+"a complete translation of the plugin, if you just want to translate the "
+"title of %s and so on, you can do the following:%s Download the zip pack of "
+"LaTeX2HTML plugin at %s; %s Download the translation tool %s and install; "
+"%s  Unzip the downloaded LaTeX2HTML plugin, and open the template file "
+"(<i>latex2html/langs/latex2html.pot</i>) by Poedit (click <i>Create new "
+"translation</i>), it will ask your target language; %s Find the items (such "
+"as Theorem, Lemma) in <i>Source text</i>, and input your translation in the "
+"<i>Translation area</i>; %s After finishing all your translation, click "
+"<i>Save</i>. <strong>BE CAREFUAL</strong>, the file name should be something "
+"like <i>latex2html-es_ES.po</i>, it will saved in the same location as the "
+"pot file; %s Install the modified plugin by uploading to your wordpress "
+"website, and set the language of wordpress as the same as your target "
+"language; %s Refreash the post to see it works or not."
+msgstr ""
+
+#. translators: give a hight rating or leave a small donation.
+#: inc/settings.php:525
+msgid "How to contribute"
+msgstr ""
+
+#: inc/settings.php:525
+#, php-format
+msgid ""
+"As a Phd in pure mathematics, this plugin is developed to help me write math "
+"notes in WP. You cannot imagine how much time and effort I spend to make it "
+"prefect. <br>Any suggestion are welcome, you can contact me by Gmail: van141."
+"abel(at)gmail.com. If you have any problem, I strongly suggest to have a "
+"look of the %s or create a new one. <br>This plugin is totally free of use,  "
+"but you can support it by giving it a %s or leaving a %s."
+msgstr ""
+
+#: inc/settings.php:530
+msgid "Paypal"
+msgstr ""
+
+#: inc/settings.php:531
+msgid "Tenpay"
+msgstr ""
+
+#: inc/settings.php:532
+msgid "Alipay"
+msgstr ""
+
+#: inc/settings.php:590
+#, php-format
+msgid ""
+"It seems that you were upgrade from a version lower than %s, since there are "
+"a lot of changes between version %s and the millstone version %s."
+msgstr ""
+
+#: inc/settings.php:591
+msgid "Although I try hard to keep upgrade smoothly"
+msgstr ""
+
+#: inc/settings.php:591
+msgid "it may loss your custom configuration in the upgrade process"
+msgstr ""
+
+#: inc/settings.php:591
+msgid "Thus, I strongly suggest you to"
+msgstr ""
+
+#: inc/settings.php:591
+msgid "have a copy of your custom configuration"
+msgstr ""
+
+#: inc/settings.php:591
+msgid "before click the following"
+msgstr ""
+
+#: inc/settings.php:591
+msgctxt "the upgrade button"
+msgid "Upgrade"
+msgstr ""
+
+#: inc/settings.php:592
+msgid "Your custom configurations are given in the following"
+msgstr ""
+
+#: inc/settings.php:592
+msgid ""
+"please be aware of that it will be deleted as soon as the upgrade process is "
+"finished"
+msgstr ""
+
+#: inc/settings.php:601
+msgid ""
+"Sorry, I didn't find any custom setting in database. You can try this newest "
+"version by a fresh new install."
+msgstr ""
+
+#: inc/settings_page.php:9
+#, php-format
+msgid ""
+"Thanks for your updating! %s %s is totally rebuild based on the neweast "
+"version of wordpress, I hope you will enjoy it!"
+msgstr ""
+
+#: inc/settings_page.php:17
+msgid "What's New?"
+msgstr ""
+
+#: inc/settings_page.php:18 latex2html.php:128
+msgid "Settings"
+msgstr ""
+
+#: inc/settings_page.php:19
+msgid "BibTeX"
+msgstr ""
+
+#: inc/settings_page.php:20
+msgid "Support &amp; Credit"
+msgstr ""
+
+#: inc/settings_page.php:21
+msgid "Manual"
+msgstr ""
+
+#: inc/settings_page.php:29
+msgid "Save settings"
+msgstr ""
+
+#: inc/settings_page.php:38
+msgid "Submit"
+msgstr ""
+
+#: inc/settings_page.php:44
+msgid "The following items have been added to the database"
+msgstr ""
+
+#: inc/settings_page.php:58 inc/settings_page.php:62
+msgid "Error"
+msgstr ""
+
+#: inc/settings_page.php:59
+#, php-format
+msgid "Can't write bibtex data to file %s, please check the file permission!"
+msgstr ""
+
+#: inc/settings_page.php:63
+#, php-format
+msgid ""
+"Please check your bibtex data, the key %s already exists in the database."
+msgstr ""
+
+#: inc/settings_page.php:81
+msgid "Upgrade"
+msgstr ""
+
+#: latex2html.php:63
+msgctxt "timezone date format"
+msgid "YmdHis"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "LaTeX2HTML"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://latex2html.vanabel.cn"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Translate your Latex document into HTML+MathJax."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Van Abel"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://vanabel.cn"
+msgstr ""
